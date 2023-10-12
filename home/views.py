@@ -23,3 +23,7 @@ def doctor(request):
 
 def contact(request):
     return HttpResponse("contact")
+
+
+def department(request):
+    return HttpResponse("department")
